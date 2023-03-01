@@ -6,7 +6,7 @@ $sql=mysqli_query($al,"select * from feeds where roll='".mysqli_real_escape_stri
 
 if(mysqli_num_rows($sql)>0)
 {
-	?
+	?>
     <script type="text/javascript">
 	alert('Feedback already submitted');
 	window.location='feedback_step_3.php';
